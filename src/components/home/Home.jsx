@@ -3,6 +3,7 @@ import './home.css'
 import Me from '../../assets/avatar-1.svg'
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
+import Shapes from './Shapes'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       <div className="intro">
         <img src={Me} alt="" className="home__img" />
         <h1 className="home__name">AzHilus</h1>
-        <span className="home__education">I'm a Front-End Developer</span>
+        <span className="home__education">I'm a Product Designer</span>
 
         <HeaderSocials />
 
@@ -19,6 +20,9 @@ const Home = () => {
         <ScrollDown />
 
       </div>
+
+
+      <Shapes />
     </section>
   )
 }
