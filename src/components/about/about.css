@@ -80,10 +80,14 @@
     background-color: rgb(108, 108, 299);   
 }
 
+.about__wrapper{
+    margin-top: 4.35rem;
+}
+
 .about__boxes {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1.875rem;
-    margin-top: 4.35rem;
+    margin-top: 0.5rem;
 }
 
 .about__box{
@@ -92,10 +96,16 @@
 }
 
 .about__icon{
-    font-size: var(--h1-font-size);
+    width: 3.175rem;
     color: #c4bdbd;
 }
 
 .about__title {
     font-size: 1.875rem;
+}
+
+.section__heading {
+    font-size: 1.875rem;
+    margin-bottom: 1.25rem;
+    font-style: italic
 }

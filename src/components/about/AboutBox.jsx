@@ -1,46 +1,26 @@
-import React from 'react'
+import React from 'react';
 
-const AboutBox = () => {
-  return (
-    <div className="about__boxes grid">
+const calculateHours = (startDate, weeklyFrequency) => {
+    const startDateObj = new Date(startDate);
+    const currentDate = new Date();
+    const timeDifference = currentDate - startDateObj;
+    const totalWeeks = Math.ceil(timeDifference / (7 * 24 * 60 * 60 * 1000));
+    const totalHours = totalWeeks * weeklyFrequency;
+    return totalHours;
+};
+
+const AboutBox = ({ iconSrc, title, startDate, weeklyFrequency }) => {
+    const totalHours = calculateHours(startDate, weeklyFrequency);
+
+    return (
         <div className="about__box">
-            <i className="about__icon icon-fire"></i>
-            
+            <img src={iconSrc} alt={title} className="about__icon" />
             <div>
-                <h3 className="about__title">198</h3>
-                <span className="about__subtitle">Project Completed</span>
+                <h3 className="about__title">{totalHours}</h3>
+                <span className="about__subtitle">{title}</span>
             </div>
         </div>
+    );
+};
 
-        <div className="about__box">
-            <i className="about__icon icon-cup"></i>
-            
-            <div>
-                <h3 className="about__title">5670</h3>
-                <span className="about__subtitle">Cup of coffee</span>
-            </div>
-        </div>
-
-        <div className="about__box">
-            <i className="about__icon icon-people"></i>
-            
-            <div>
-                <h3 className="about__title">427</h3>
-                <span className="about__subtitle">Satisfied clients</span>
-            </div>
-        </div>
-
-        <div className="about__box">
-            <i className="about__icon icon-badge"></i>
-            
-            <div>
-                <h3 className="about__title">35</h3>
-                <span className="about__subtitle">Nominees winner</span>
-            </div>
-        </div>
-
-    </div>
-  )
-}
-
-export default AboutBox
+export default AboutBox;

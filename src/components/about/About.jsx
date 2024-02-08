@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from './AboutBox';
+import TimepassedComponent from './TimepassedComponent';
 
 const About = () => {
   return (
@@ -57,7 +58,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <AboutBox />
+      <TimepassedComponent />
     </section>
 
   )
