@@ -11,18 +11,21 @@ const Menu = [
       image: Work1,
       title: "Project Management Illustration",
       category: "Design",
+      url:"",
     },
     {
       id: 2,
       image: Work2,
       title: "Guest App Walkthrough Screens",
       category: "Art",
+      url:"",
     },
     {
       id: 3,
       image: Work3,
       title: "Delivery App Wireframe",
       category: "Branding",
+      url:"",
     },
     ,
     {
@@ -30,6 +33,7 @@ const Menu = [
       image: Work4,
       title: "Onboarding Motivation",
       category: "Design",
+      url:"",
     },
     ,
     {
@@ -37,6 +41,7 @@ const Menu = [
       image: Work5,
       title: "iMac Mockup Design",
       category: "Creative",
+      url:"",
     },
     ,
     {
@@ -44,6 +49,7 @@ const Menu = [
       image: Work6,
       title: "Game Store App Concept",
       category: "Art",
+      url:"",
     },
   ];
   
