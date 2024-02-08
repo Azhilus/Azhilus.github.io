@@ -3,7 +3,7 @@ const Data = [
     id: 1,
     category: "education",
     icon: "icon-graduation",
-    year: "2021 - present",
+    year: "2022 - present",
     title: "BTech in Electronics and Communication Engineering",
     desc: "Currently pursuing BTech in Electronics and Communication Engineering from GGSIPU, New Delhi.",
     url: "",
