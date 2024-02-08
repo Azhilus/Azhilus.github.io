@@ -51,6 +51,13 @@ const Menu = [
       category: "Art",
       url:"",
     },
+    {
+      id: 7,
+      image: Work6,
+      title: "Game t",
+      category: "Art",
+      url:"",
+    },
   ];
   
 
