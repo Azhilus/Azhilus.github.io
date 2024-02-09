@@ -31,27 +31,29 @@
   /*================== Border Radius ===================*/
   --border-radius: 10px;
 
-  /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #FF4D61 #ffffff;
-  }
+/* ===== Scrollbar CSS ===== */
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ff4d61 #ffffff00;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #FF4D61;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
+*::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff4d61;
+  border-radius: 10px;
+  border: 3px solid #E6E0EF;
+}
+
 
 }
 /* Responsive typography */
