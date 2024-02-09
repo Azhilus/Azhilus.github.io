@@ -31,6 +31,28 @@
   /*================== Border Radius ===================*/
   --border-radius: 10px;
 
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #595959 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #595959;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
 }
 /* Responsive typography */
 @media screen and (max-width: 1024px) {
